@@ -528,51 +528,90 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:1.3rem cl
     <div class="lbl t" data-r>Work</div>
     <h2 class="stitle" data-r>Featured <em class="tc">Projects</em></h2>
     <div class="pj-grid">
-      <div class="pj ct wide" data-r onclick="go('https://github.com/mus-shaikh')">
-        <div class="pj-bar"></div><div class="pj-cat">AI · Clustering · GenAI</div>
-        <div class="pj-name">AI-Driven Heart Disease Clustering &amp; Insights</div>
-        <p class="pj-desc">Built an AI app combining <strong style="color:var(--t1)">KMeans, PCA, and a Llama-based LLM</strong> to generate natural-language explanations for clustering results. End-to-end workflow: preprocessing, training, serialization, and Streamlit deployment.</p>
-        <div class="pj-tags"><span class="ptag">Python</span><span class="ptag">KMeans</span><span class="ptag">PCA</span><span class="ptag">Streamlit</span><span class="ptag">Llama LLM</span><span class="ptag">Pandas</span></div>
-        <div class="pj-foot"><span class="pj-meta">End-to-end AI workflow</span><span class="pj-gh">GitHub ↗</span></div>
-      </div>
-      <div class="pj cv" data-r data-d="1" onclick="go('https://github.com/mus-shaikh')">
-        <div class="pj-bar"></div><div class="pj-cat">NLP · Emotion AI</div>
-        <div class="pj-name">Emotion Detection System</div>
-        <p class="pj-desc">NLP-based emotion detection using TF-IDF, tokenization, Naive Bayes and Logistic Regression classifiers.</p>
-        <div class="pj-tags"><span class="ptag">Python</span><span class="ptag">NLTK</span><span class="ptag">TF-IDF</span><span class="ptag">Naive Bayes</span></div>
-        <div class="pj-foot"><span class="pj-meta">Text Classification</span><span class="pj-gh">GitHub ↗</span></div>
-      </div>
-      <div class="pj cr" data-r onclick="go('https://github.com/mus-shaikh')">
-        <div class="pj-bar"></div><div class="pj-cat">Deep Learning · CNN</div>
-        <div class="pj-name">Brain Tumor Detection</div>
-        <p class="pj-desc">CNN model for brain tumor image classification achieving <strong style="color:var(--t1)">87.8% accuracy</strong>. Evaluated Custom CNN, AlexNet, LeNet, ResNet.</p>
-        <div class="pj-tags"><span class="ptag">Python</span><span class="ptag">TensorFlow</span><span class="ptag">Keras</span><span class="ptag">ResNet</span></div>
-        <div class="pj-foot"><span class="pj-meta">87.8% accuracy · Medical AI</span><span class="pj-gh">GitHub ↗</span></div>
-      </div>
-      <div class="pj ca" data-r data-d="1" onclick="go('https://github.com/mus-shaikh')">
-        <div class="pj-bar"></div><div class="pj-cat">ML · Healthcare</div>
-        <div class="pj-name">Diabetes Prediction System</div>
-        <p class="pj-desc">Classification models on healthcare datasets with FastAPI-deployed real-time inference and interactive dashboards.</p>
-        <div class="pj-tags"><span class="ptag">Python</span><span class="ptag">Scikit-learn</span><span class="ptag">FastAPI</span><span class="ptag">Pandas</span></div>
-        <div class="pj-foot"><span class="pj-meta">FastAPI deployment</span><span class="pj-gh">GitHub ↗</span></div>
-      </div>
-      <div class="pj ct" data-r data-d="2" onclick="go('https://github.com/mus-shaikh/Anomoly-Detection')">
-        <div class="pj-bar"></div><div class="pj-cat">ML · Anomaly Detection</div>
-        <div class="pj-name">Anomaly Detection System</div>
-        <p class="pj-desc">XGBoost app detecting abnormal sensor behaviour using lag values and rolling statistics. Achieves <strong style="color:var(--t1)">98.4% accuracy</strong>.</p>
-        <div class="pj-tags"><span class="ptag">XGBoost</span><span class="ptag">Streamlit</span><span class="ptag">Pandas</span><span class="ptag">Parquet</span></div>
-        <div class="pj-foot"><span class="pj-meta">⭐ 1 · 98.4% accuracy</span><span class="pj-gh">GitHub ↗</span></div>
-      </div>
-      <div class="pj cv" data-r data-d="3" onclick="go('https://github.com/mus-shaikh/Mobile-Sales-Dashboard')">
-        <div class="pj-bar"></div><div class="pj-cat">Analytics · Dashboard</div>
-        <div class="pj-name">Mobile Sales Dashboard</div>
-        <p class="pj-desc">Interactive BI dashboard for mobile sales KPIs, trend analysis, and visual storytelling for data-driven business decisions.</p>
-        <div class="pj-tags"><span class="ptag">Power BI</span><span class="ptag">SQL</span><span class="ptag">Data Viz</span></div>
-        <div class="pj-foot"><span class="pj-meta">Business Intelligence</span><span class="pj-gh">GitHub ↗</span></div>
-      </div>
+
+  <!-- Nutrition Agent -->
+  <div class="pj ct wide" data-r onclick="go('https://github.com/mus-shaikh/AI-Nutrition-Planner')">
+    <div class="pj-bar"></div>
+    <div class="pj-cat">LLM · AI System</div>
+    <div class="pj-name">AI Nutrition Planner</div>
+    <p class="pj-desc">
+      AI-based diet planning system using LLM for personalized recommendations.<br><br>
+      ✔ Handles user constraints (calories, diseases)<br>
+      ✔ Prompt-based reasoning<br>
+      ✔ Interactive UI
+    </p>
+    <div class="pj-tags">
+      <span class="ptag">Python</span>
+      <span class="ptag">Streamlit</span>
+      <span class="ptag">LLM API</span>
     </div>
+    <div class="pj-foot"><span class="pj-meta">AI System</span><span class="pj-gh">GitHub ↗</span></div>
   </div>
-</section>
+
+  <!-- RAG -->
+  <div class="pj cv" data-r onclick="go('https://github.com/mus-shaikh')">
+    <div class="pj-bar"></div>
+    <div class="pj-cat">RAG · NLP</div>
+    <div class="pj-name">RAG-based QA System</div>
+    <p class="pj-desc">
+      Retrieval-based system using embeddings + LLM.<br><br>
+      ✔ Context-aware responses<br>
+      ✔ Improved answer relevance
+    </p>
+    <div class="pj-tags">
+      <span class="ptag">Python</span>
+      <span class="ptag">LlamaIndex</span>
+      <span class="ptag">LLM API</span>
+    </div>
+    <div class="pj-foot"><span class="pj-meta">RAG Pipeline</span><span class="pj-gh">GitHub ↗</span></div>
+  </div>
+
+  <!-- Heart -->
+  <div class="pj ct" data-r onclick="go('https://github.com/mus-shaikh')">
+    <div class="pj-bar"></div>
+    <div class="pj-cat">ML · Clustering</div>
+    <div class="pj-name">Heart Disease Clustering</div>
+    <p class="pj-desc">
+      Patient clustering using KMeans & PCA with explainable insights.
+    </p>
+    <div class="pj-tags">
+      <span class="ptag">Scikit-learn</span>
+      <span class="ptag">Pandas</span>
+    </div>
+    <div class="pj-foot"><span class="pj-meta">ML Project</span><span class="pj-gh">GitHub ↗</span></div>
+  </div>
+
+  <!-- Diabetes -->
+  <div class="pj ca" data-r onclick="go('https://github.com/mus-shaikh')">
+    <div class="pj-bar"></div>
+    <div class="pj-cat">ML · API</div>
+    <div class="pj-name">Diabetes Prediction</div>
+    <p class="pj-desc">
+      ML model with FastAPI deployment for real-time prediction.
+    </p>
+    <div class="pj-tags">
+      <span class="ptag">Scikit-learn</span>
+      <span class="ptag">FastAPI</span>
+    </div>
+    <div class="pj-foot"><span class="pj-meta">ML + API</span><span class="pj-gh">GitHub ↗</span></div>
+  </div>
+
+  <!-- Brain Tumor -->
+  <div class="pj cr" data-r onclick="go('https://github.com/mus-shaikh')">
+    <div class="pj-bar"></div>
+    <div class="pj-cat">CNN · Deep Learning</div>
+    <div class="pj-name">Brain Tumor Detection</div>
+    <p class="pj-desc">
+      CNN-based MRI image classification using TensorFlow/Keras.
+    </p>
+    <div class="pj-tags">
+      <span class="ptag">TensorFlow</span>
+      <span class="ptag">Keras</span>
+    </div>
+    <div class="pj-foot"><span class="pj-meta">Deep Learning</span><span class="pj-gh">GitHub ↗</span></div>
+  </div>
+
+</div>
 
 <!-- ═══ RESEARCH ═══ -->
 <section id="research" class="research">
